@@ -2,19 +2,25 @@
 
 # 🐘 phpustik
 
-### Production-grade MCP server that gives AI assistants deep visibility into the entire PHP ecosystem — runtime, linting, static analysis, security, testing, Composer and framework tools.
+### **AI'nin PHP gözü, kulağı ve eli olacak.**  
+Tek bir `npx` ile AI asistanınıza PHP runtime, statik analiz, güvenlik taraması, test koşucusu, Composer ve framework entegrasyonu kazandıran MCP sunucusu.
+
+---
+
+> Production-grade MCP server that gives AI assistants deep visibility into the entire PHP ecosystem — runtime, linting, static analysis, security, testing, Composer and framework tools.
 
 [![npm version](https://img.shields.io/npm/v/phpustik.svg?style=flat-square&logo=npm)](https://www.npmjs.com/package/phpustik)
-[![MIT License](https://img.shields.io/github/license/phpustik/phpustik.svg?style=flat-square)](LICENSE)
+[![MIT License](https://img.shields.io/github/license/halitartuc/phpustik.svg?style=flat-square)](LICENSE)
 [![Node](https://img.shields.io/node/v/phpustik.svg?style=flat-square&logo=node.js)](https://nodejs.org)
-[![CI](https://img.shields.io/github/actions/workflow/status/phpustik/phpustik/ci.yml?style=flat-square&logo=github)](https://github.com/phpustik/phpustik/actions)
+[![CI](https://img.shields.io/github/actions/workflow/status/halitartuc/phpustik/ci.yml?style=flat-square&logo=github)](https://github.com/halitartuc/phpustik/actions)
 [![semantic-release](https://img.shields.io/badge/semantic--release-angular-e10079.svg?style=flat-square&logo=semantic-release)](https://github.com/semantic-release/semantic-release)
 [![MCP](https://img.shields.io/badge/MCP-v2-blueviolet.svg?style=flat-square)](https://modelcontextprotocol.io)
 [![Tools](https://img.shields.io/badge/tools-33-blue.svg?style=flat-square)](#-tools)
 [![Resources](https://img.shields.io/badge/resources-8-green.svg?style=flat-square)](#-resources)
 [![Prompts](https://img.shields.io/badge/prompts-7-orange.svg?style=flat-square)](#-prompts)
 
-> A Model Context Protocol server for PHP — written in TypeScript, shipped as a single `npx`-able package, battle-tested on Windows, macOS and Linux.
+> A Model Context Protocol server for PHP — written in TypeScript, shipped as a single `npx`-able package, battle-tested on Windows, macOS and Linux.  
+> 🎯 **Vision:** Make every AI assistant a PHP expert — no Config, no Setup, just `npx phpustik`.
 
 [Features](#-features) · [Installation](#-installation) · [Usage](#-usage) · [Tools](#-tools) · [Resources](#-resources) · [Prompts](#-prompts) · [Integrations](#-integrations)
 
@@ -330,7 +336,7 @@ You'll see on stderr:
 ### Local development
 
 ```bash
-git clone https://github.com/phpustik/phpustik.git
+git clone https://github.com/halitartuc/phpustik.git
 cd phpustik
 npm install
 npm run dev          # tsx, no build
