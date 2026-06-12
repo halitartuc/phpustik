@@ -1,7 +1,7 @@
 {
   "name": "phpustik",
   "version": "1.0.0",
-  "description": "Production-grade Model Context Protocol (MCP) server that gives AI assistants (Cursor, Claude Desktop, Opencode, Claude Code) deep visibility into PHP environments, syntax, static analysis and code formatting.",
+  "description": "MCP Server for PHP — AI-powered PHP development assistant. Runtime info, linting, static analysis (PHPStan, Psalm), security scanning, testing (PHPUnit), Composer management, and framework tools (Laravel, Symfony) for Claude, Cursor, Opencode and any MCP client.",
   "type": "module",
   "main": "dist/index.js",
   "bin": {
@@ -39,6 +39,8 @@
   },
   "keywords": [
     "mcp",
+    "mcp-server",
+    "mcp-php",
     "model-context-protocol",
     "ai",
     "claude",
@@ -46,26 +48,38 @@
     "claude-code",
     "claude-desktop",
     "opencode",
+    "cline",
     "php",
+    "php-mcp",
     "phpstan",
+    "psalm",
     "php-cs-fixer",
+    "rector",
+    "phpmd",
+    "phpcs",
+    "phpunit",
     "static-analysis",
     "linter",
     "code-quality",
-    "developer-tools"
+    "security",
+    "composer",
+    "laravel",
+    "symfony",
+    "developer-tools",
+    "php-tools"
   ],
   "author": {
-    "name": "phpustik contributors",
-    "url": "https://github.com/phpustik/phpustik"
+    "name": "halitartuc",
+    "url": "https://github.com/halitartuc"
   },
   "license": "MIT",
-  "homepage": "https://github.com/phpustik/phpustik#readme",
+  "homepage": "https://github.com/halitartuc/phpustik#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/phpustik/phpustik.git"
+    "url": "https://github.com/halitartuc/phpustik.git"
   },
   "bugs": {
-    "url": "https://github.com/phpustik/phpustik/issues"
+    "url": "https://github.com/halitartuc/phpustik/issues"
   },
   "publishConfig": {
     "access": "public",

@@ -1,13 +1,17 @@
 <div align="center">
 
-# 🐘 phpustik
+# 🐘 phpustik — MCP Server for PHP
 
 ### **AI'nin PHP gözü, kulağı ve eli olacak.**  
-Tek bir `npx` ile AI asistanınıza PHP runtime, statik analiz, güvenlik taraması, test koşucusu, Composer ve framework entegrasyonu kazandıran MCP sunucusu.
+**MCP Sunucusu** · Tek `npx` ile AI asistanınıza PHP runtime, statik analiz, güvenlik taraması, test koşucusu, Composer ve framework entegrasyonu kazandırır.
+
+> 🏷️ **MCP Server | PHP Tools | AI Integration | Static Analysis | Composer | Laravel | Symfony**  
+> *"The bridge between AI assistants and the PHP ecosystem."*
 
 ---
 
-> Production-grade MCP server that gives AI assistants deep visibility into the entire PHP ecosystem — runtime, linting, static analysis, security, testing, Composer and framework tools.
+> Production-grade [MCP server](https://modelcontextprotocol.io) that gives AI assistants deep visibility into the entire PHP ecosystem — runtime, linting, static analysis, security, testing, Composer and framework tools.  
+> Works with **Claude Desktop**, **Cursor**, **Claude Code**, **Opencode**, **Cline** and any MCP-compatible client.
 
 [![npm version](https://img.shields.io/npm/v/phpustik.svg?style=flat-square&logo=npm)](https://www.npmjs.com/package/phpustik)
 [![MIT License](https://img.shields.io/github/license/halitartuc/phpustik.svg?style=flat-square)](LICENSE)
