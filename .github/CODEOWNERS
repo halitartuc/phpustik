@@ -1,0 +1,4 @@
+# Codeowners — automatic reviewer assignment.
+# See https://docs.github.com/en/repositories/working-with-files/using-github-code-owners
+
+*       @phpustik/maintainers

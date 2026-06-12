@@ -1,0 +1,22 @@
+config:
+  branches:
+    - main
+  tag_format: "v${version}"
+  version_format: "${version}"
+  categories:
+    - title: 🚀 Features
+      labels: ["feat", "feature"]
+    - title: 🐛 Bug Fixes
+      labels: ["fix", "bug"]
+    - title: 📚 Documentation
+      labels: ["docs"]
+    - title: 🧹 Maintenance
+      labels: ["chore", "refactor", "deps"]
+  change_template: |-
+    * _$AUTHOR_ opened _$FULL_REFERENCE_ in _$REPOSITORY_ — $TITLE_
+  template: |
+    ## What’s Changed
+
+    $CHANGES
+
+    **Full Changelog**: https://github.com/$OWNER/$REPOSITORY/compare/$PREVIOUS_TAG...v$RESOLVED_VERSION

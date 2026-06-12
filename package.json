@@ -1,0 +1,95 @@
+{
+  "name": "phpustik",
+  "version": "1.0.0",
+  "description": "Production-grade Model Context Protocol (MCP) server that gives AI assistants (Cursor, Claude Desktop, Opencode, Claude Code) deep visibility into PHP environments, syntax, static analysis and code formatting.",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "phpustik": "dist/index.js"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "build:watch": "tsc -p tsconfig.build.json --watch",
+    "start": "node dist/index.js",
+    "dev": "tsx src/index.ts",
+    "inspect": "npm run build && npx @modelcontextprotocol/inspector node dist/index.js",
+    "clean": "rimraf dist coverage *.tsbuildinfo",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "prepublishOnly": "npm run clean && npm run lint && npm run typecheck && npm run build",
+    "prepare": "node -e \"console.log('phpustik ready')\""
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "ai",
+    "claude",
+    "cursor",
+    "claude-code",
+    "claude-desktop",
+    "opencode",
+    "php",
+    "phpstan",
+    "php-cs-fixer",
+    "static-analysis",
+    "linter",
+    "code-quality",
+    "developer-tools"
+  ],
+  "author": {
+    "name": "phpustik contributors",
+    "url": "https://github.com/phpustik/phpustik"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/phpustik/phpustik#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/phpustik/phpustik.git"
+  },
+  "bugs": {
+    "url": "https://github.com/phpustik/phpustik/issues"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "dependencies": {
+    "@cfworker/json-schema": "^4.1.1",
+    "@modelcontextprotocol/server": "2.0.0-alpha.2",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.18.0",
+    "@types/node": "^22.10.5",
+    "eslint": "^9.18.0",
+    "prettier": "^3.4.2",
+    "rimraf": "^6.0.1",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2",
+    "typescript-eslint": "^8.20.0",
+    "zod": "^4.4.3"
+  },
+  "os": [
+    "darwin",
+    "linux",
+    "win32"
+  ]
+}
